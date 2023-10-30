@@ -1,0 +1,16 @@
+.bg-dcolor{
+    background-color: #0F0F10;
+}
+body{
+    background-color: #0F0F10;
+}
+.nav-underline{
+    --bs-nav-underline-border-width:0.5rem;
+}
+.nav-underline .nav-link.active, .nav-underline .show >.nav-link {
+    font-weight: 400;
+}
+.hm{
+    display: block;
+    max-height: 330px;
+}
