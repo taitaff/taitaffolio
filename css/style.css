@@ -36,8 +36,8 @@ body{
     .headerrow{
         align-items: center;
     }
-    .logo{justify-content: start!important; text-align: start;}
-    .menubtns{
+    body .logo{justify-content: start!important; text-align: start;}
+    body .menubtns{
         justify-content: end!important;
     }
     .frogcard{
@@ -54,7 +54,7 @@ body{
         flex-direction: row;
         justify-content: space-between;
     }
-    .imageme{
+    body .imageme{
         justify-content: end!important;
         align-items: end;
     }
