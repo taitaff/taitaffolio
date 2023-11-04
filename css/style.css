@@ -1,0 +1,61 @@
+.bg-dcolor{
+    background-color: #0a0a0a;
+}
+body{
+    background-color: #0a0a0a;
+}
+.nav-underline{
+    --bs-nav-underline-border-width:0.5rem;
+}
+.nav-underline .nav-link.active, .nav-underline .show >.nav-link {
+    font-weight: 400;
+}
+.hm{
+    display: block;
+    max-height: 330px;
+}
+.btn-close{
+    --bs-btn-close-focus-shadow:0;
+}
+.form-control:focus {
+    background-color: #0a0a0a;
+  }
+.custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+.btnpopov{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .headerrow{
+        align-items: center;
+    }
+    .logo{justify-content: start!important; text-align: start;}
+    .menubtns{
+        justify-content: end!important;
+    }
+    .frogcard{
+        max-height: 330px;
+        max-width: 430px;
+    }
+    .btnpopov{
+        width: auto;
+    }
+}
+@media (min-width: 1200px) {
+    .aboutme{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .imageme{
+        justify-content: end!important;
+        align-items: end;
+    }
+}
