@@ -241,6 +241,9 @@
       var popoverList = popoverTriggerList.map(function (popoverTriggerEl){
         return new bootstrap.Popover(popoverTriggerEl)
       })
+      setTimeout(function(){
+	    document.getElementsByClassName("popover").style.display = 'none';
+      }, 5000);
     </script>
   </body>
 </html>
