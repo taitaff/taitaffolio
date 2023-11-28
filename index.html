@@ -242,7 +242,8 @@
         return new bootstrap.Popover(popoverTriggerEl)
       })
       setTimeout(function(){
-	    document.getElementsByClassName("popover").style.display = 'none';
+	    let element = document.getElementsByClassName("popover");
+	      delete (element);
       }, 5000);
     </script>
   </body>
